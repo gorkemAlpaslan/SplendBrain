@@ -1,0 +1,20 @@
+# Beyin V3 makineye özel çalışma ve kurulum dosyaları
+.beyin-runtime.json
+.beyin-note-write/
+.claude/settings.local.json
+.claude/hermes-plugin/__init__.py
+.codex/hooks.json
+.agents/hooks.json
+.kiro/hooks/beyin-v3.json
+.opencode/plugins/beyin-v3.js
+.omp/hooks/pre/beyin-v3.ts
+Beyni Güncelle.command
+Beyni Guncelle.cmd
+Beyni Güncelle.sh
+Beyni Güncelle.desktop
+
+# İşletim sistemi ve yerel pencere düzeni dosyaları
+.DS_Store
+Thumbs.db
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json

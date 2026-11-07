@@ -1,0 +1,16 @@
+---
+{
+  "generated": true,
+  "kind": "receipt-index"
+}
+---
+# Outcome source index
+
+This index links semantic receipts. It is not an automatic knowledge compiler.
+
+- 2026-11-07: Avenox İkinci Beyin V3 (v3.12.0) kuruldu ve doğrulandı. Görkem'in hitap, proje klasörü ve proje bazlı çalışma biçimi tercihleri Core.md, Kurallar.md ve knowledge/projeler-klasoru-duzeni.md dosyalarına kaydedilip beyin.py context ile geri okundu.
+Öğrenilen: Görkem projelerini ana sayfadaki Projeler klasöründe topluyor ve çalışma/iletişim tarzının her proje için ayrı ayrı sorulmasını tercih ediyor.
+  Source: [[receipts/7d6028b6a4f5a85df6c212126fadac432f9e3eece4295daefb1b78756ec7e9f8.md]]
+- 2026-11-07: Oturumlar arası hafıza doğrulandı; macOS ve Windows arasında Private GitHub Reposu ile senkronizasyon için vault kökünde Git deposu başlatıldı, makineye özel dosyaları hariç tutan .gitignore ve Windows CRLF çakışmasını önleyen .gitattributes oluşturuldu.
+Öğrenilen: Çoklu cihaz (macOS/Windows) Git senkronizasyonunda makineye özel hook/state dosyaları .gitignore ile dışarıda tutulur, receipts/** -text ile satır sonu korunur ve projeler yerel bridge üzerinden klasör adıyla eşleşir.
+  Source: [[receipts/14d7a5e515a6145c3681d639b5dd5e9f0b34982423e28e7492def08d2ee1436f.md]]
