@@ -1,9 +1,9 @@
 # Son oturum
 
 ## 2026-11-07 12:44 · Çoklu cihaz Git senkronizasyonu · fde60045
-- **Ne yaptık:** Oturumlar arası hafıza doğrulandı. Beyin V3'ü Görkem'in Windows bilgisayarına da kurmak için senkronizasyon seçenekleri (Syncthing, Obsidian Sync, Private GitHub Repo) değerlendirildi. Vault kökünde Git deposu (`main`) başlatıldı, makineye özel dosyaları hariç tutan `.gitignore` ve Windows satır sonu çakışmalarını önleyen `.gitattributes` (`receipts/** -text`) oluşturuldu. İlgili hafıza ve kavram notları güncellendi.
-- **Karar:** Beyin V3 vault'u macOS ve Windows bilgisayarlar arasında Private GitHub Reposu üzerinden eşitlenecek.
-- **Açık kalan / Sonraki somut adım:** Görkem GitHub'da boş bir private repo oluşturup `git remote add origin <URL> && git push -u origin main` çalıştıracak; ardından Windows'ta repoyu klonlayıp yerel kurulum ve köprü (`bridge`) adımlarını uygulayacak.
+- **Ne yaptık:** Oturumlar arası hafıza doğrulandı. Mac ve Windows arasında `SplendBrain` (`https://github.com/gorkemAlpaslan/SplendBrain.git`) private GitHub reposu bağlandı; `.gitignore` ve `.gitattributes` (`receipts/** -text`) yapılandırıldı. Windows'ta projelerin `C:\projects` altında (`anextour` ve `kisisel` alt klasörleriyle) yer aldığı bilgisi `Core.md` ve `knowledge/` notlarına kaydedildi; Windows'taki ajana verilecek uçtan uca kurulum promptu hazırlandı.
+- **Karar:** Beyin V3 vault'u macOS ve Windows bilgisayarlar arasında `SplendBrain` Private GitHub Reposu üzerinden eşitlenecek; proje kökleri macOS'te `~/Desktop/Projeler`, Windows'ta `C:\projects` olarak yerel köprülerle (`bridge`) bağlanacak.
+- **Açık kalan / Sonraki somut adım:** Windows bilgisayarda kurulum promptunu çalıştırarak `SplendBrain` reposunu çekmek, V3 Windows kurulumunu ve `C:\projects` köprüsünü doğrulamak.
 - **Kaynaklar:** `🔮 850-Companion/Core.md`, `🔮 850-Companion/Threads.md`, `knowledge/projeler-klasoru-duzeni.md`, `knowledge/concepts/coklu-cihaz-git-senkronizasyonu.md`, `knowledge/index.md`
 
 ## 2026-11-07 12:26 · V3 kurulum ve tanışma · 4a9f998f

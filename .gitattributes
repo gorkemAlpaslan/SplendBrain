@@ -1,2 +1,3 @@
 # Windows autocrlf kaynaklı receipt SHA-256 / event-id çakışmasını önler
 receipts/** -text
+

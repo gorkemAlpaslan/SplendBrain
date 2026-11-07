@@ -14,3 +14,6 @@ This index links semantic receipts. It is not an automatic knowledge compiler.
 - 2026-11-07: Oturumlar arası hafıza doğrulandı; macOS ve Windows arasında Private GitHub Reposu ile senkronizasyon için vault kökünde Git deposu başlatıldı, makineye özel dosyaları hariç tutan .gitignore ve Windows CRLF çakışmasını önleyen .gitattributes oluşturuldu.
 Öğrenilen: Çoklu cihaz (macOS/Windows) Git senkronizasyonunda makineye özel hook/state dosyaları .gitignore ile dışarıda tutulur, receipts/** -text ile satır sonu korunur ve projeler yerel bridge üzerinden klasör adıyla eşleşir.
   Source: [[receipts/14d7a5e515a6145c3681d639b5dd5e9f0b34982423e28e7492def08d2ee1436f.md]]
+- 2026-11-07: SplendBrain GitHub private repo bağlantısı doğrulandı; Windows proje kökü (C:\projects) ve her iki sistemdeki alt klasör yapısı (AnexTour/anextour ve Kisisel/kisisel) Core.md ve knowledge notlarına kaydedildi.
+Öğrenilen: Projeler macOS'te ~/Desktop/Projeler, Windows'ta C:\projects altında AnexTour ve Kisisel alt klasörleriyle tutulur; vault SplendBrain reposu üzerinden eşitlenir.
+  Source: [[receipts/b97345211f9f83ab589e7e31814793075c0351e1476d6dd1be807955e2fc1731.md]]
