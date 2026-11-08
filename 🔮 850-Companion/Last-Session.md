@@ -1,5 +1,10 @@
 # Son oturum
 
+## 2026-11-08 11:36 · Portfolyo cam tasarımı · f3765e6f
+- Portfolyoda header, cam yüzeyler ve responsive yerleşim düzenlendi. Açık ve koyu temada 390, 768 ve 1440 px genişlikler Chrome ile kontrol edildi.
+- Kaynaklar: [[projects/2025-gorkemalpaslan/Kurallar]], portfolyo deposundaki src/styles/glass.css ve src/components/layout/Navigation.tsx.
+
+
 ## 2026-11-07 12:44 · Çoklu cihaz Git senkronizasyonu · fde60045
 - **Ne yaptık:** Oturumlar arası hafıza doğrulandı. Mac ve Windows arasında `SplendBrain` (`https://github.com/gorkemAlpaslan/SplendBrain.git`) private GitHub reposu bağlandı; `.gitignore` ve `.gitattributes` (`receipts/** -text`) yapılandırıldı. Windows'ta projelerin `C:\projects` altında (`anextour` ve `kisisel` alt klasörleriyle) yer aldığı bilgisi `Core.md` ve `knowledge/` notlarına kaydedildi; Windows'taki ajana verilecek uçtan uca kurulum promptu hazırlandı.
 - **Karar:** Beyin V3 vault'u macOS ve Windows bilgisayarlar arasında `SplendBrain` Private GitHub Reposu üzerinden eşitlenecek; proje kökleri macOS'te `~/Desktop/Projeler`, Windows'ta `C:\projects` olarak yerel köprülerle (`bridge`) bağlanacak.
