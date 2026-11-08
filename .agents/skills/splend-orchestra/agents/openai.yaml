@@ -1,0 +1,9 @@
+interface:
+  display_name: "SplendOrchestra"
+  short_description: "Level 6 Team Lead with Codex & Antigravity CLI"
+  brand_color: "#8B5CF6"
+  default_prompt: "Use $splend-orchestra as a Level 6 Team Lead: do not write code directly; orchestrate Codex (Luna/Sol/Astra) and Antigravity (Argon/Flash) subagents."
+
+policy:
+  allow_implicit_invocation: true
+
