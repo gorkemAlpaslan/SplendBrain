@@ -136,3 +136,4 @@ if __name__ == "__main__":
     vault = Path(__file__).resolve().parent
     apply_mode = "--check" not in sys.argv and "--dry-run" not in sys.argv
     sync_skills(vault, apply=apply_mode)
+

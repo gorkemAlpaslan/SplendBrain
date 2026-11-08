@@ -34,3 +34,4 @@ python3 skill_sync.py --check
 1. **Beyin'de Var, Yerelde Yok:** Beyin'den yerel Codex ve Antigravity dizinlerine otomatik kurulur.
 2. **Yerelde Yeni Bir Skill Var, Beyin'de Yok:** Yereldeki yeni skill otomatik olarak Beyin'e kopyalanır ve korunur.
 3. **Her İki Tarafta da Var Ama İçerik Farklı:** Dosya SHA-256 hash'lerine ve son değiştirilme zamanına (`mtime`) bakılarak en güncel sürüm diğer tarafa aktarılır.
+
