@@ -19,3 +19,4 @@ Bu script otomatik olarak:
 1. Windows kullanıcınızın `%USERPROFILE%\.codex\skills\splend-orchestra\` dizinine dosyaları kopyalar ve UI kartını (`openai.yaml`) ekler.
 2. Windows kullanıcınızın `%USERPROFILE%\.gemini\config\skills\splend-orchestra\` dizinine Antigravity skill'ini kopyalar.
 3. `%USERPROFILE%\.codex\AGENTS.md` dosyasına isteğe bağlı çağırma kuralını ekler.
+
